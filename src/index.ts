@@ -1,8 +1,11 @@
 import { Application } from 'probot' // eslint-disable-line no-unused-vars
 
+const wait = (ms : number) => new Promise(resolve => setTimeout(resolve, ms))
+
 export = (app: Application) => {
   app.on('issues.opened', async (context) => {
     const issueComment = context.issue({ body: 'Thanks for opening this issue!' })
+    await wait(3000)
     await context.github.issues.createComment(issueComment)
   })
   // Test app with dumped event from GitHub:
