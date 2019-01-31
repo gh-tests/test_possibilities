@@ -1,6 +1,6 @@
 # my-first-app
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app
+> A GitHub App built with [Probot](https://github.com/probot/probot) that is provides very important testing possibilities :D
 
 ## Setup
 
