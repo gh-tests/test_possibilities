@@ -2,6 +2,8 @@
 
 Change it to see what happens :D
 
+And more change :D
+
 > A GitHub App built with [Probot](https://github.com/probot/probot) that either comments on pull request
 that certain files require review from legal team or requests review from legal team when certain file(s)
 (e.g. LICENSE, etc.) is submitted with pull request [pr]. See the following diagram for details:
